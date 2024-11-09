@@ -23,6 +23,13 @@
             z-index: 1; /* Place behind the header */
         }
 
+        /* Full width and height iframe */
+        .background-layer iframe {
+            width: 100vw; /* Full viewport width to eliminate side gaps */
+            height: 100vh; /* Full viewport height */
+            border: none;
+        }
+
         /* Style the overlay header */
         header {
             position: fixed;
@@ -67,7 +74,7 @@
 
     <!-- Background Layer: Main Website -->
     <div class="background-layer">
-        <iframe src="https://filmbyhim.wixsite.com/my-site-1" style="width: 100%; height: 100%; border: none; padding: 0; margin: 0;"></iframe>
+        <iframe src="https://filmbyhim.wixsite.com/my-site-1"></iframe>
     </div>
 
     <!-- Overlay Header -->
